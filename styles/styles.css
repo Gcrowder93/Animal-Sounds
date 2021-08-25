@@ -1,7 +1,7 @@
 
 body {        
     font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
+    background-color: #ebf2f3;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -29,7 +29,25 @@ h1 {
     font-weight: bold;
 }
 
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    color:#A2D7D2
+}
+
 footer {
-    background-color: #FAF0EA;
+    background-color: #A2D7D2;
     padding: 10px;
 }
+
+.animals img {
+    border: solid black 4px;
+    width: 475px;
+    grid-auto-rows: auto;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
