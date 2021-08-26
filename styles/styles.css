@@ -57,8 +57,9 @@ footer {
     margin: 20px;
     grid-auto-rows: auto;
     cursor: pointer;
-    flex-wrap: 
+    flex-wrap: wrap;
 }
+
 .animals div {
     display: flex;
     flex-direction: column;

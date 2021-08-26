@@ -16,7 +16,7 @@ emuImg.addEventListener('click', () => {
     emuAudio.play();
     emuclicks ++;
 
-    emuspan.textContent = "Fingers you would have lost.." + emuclicks;
+    emuspan.textContent = 'Fingers you would have lost..' + emuclicks;
   
 
 });
@@ -25,7 +25,7 @@ sheepImg.addEventListener('click', () => {
     sheepAudio.play();
     sheepclicks ++;
 
-    sheepspan.textContent = "Number of pets.." + emuclicks;
+    sheepspan.textContent = 'Number of pets..' + sheepclicks;
 
 });
 
@@ -33,6 +33,6 @@ whaleImg.addEventListener('click', () => {
     whaleAudio.play();
     whaleclicks ++;
 
-    whalespan.textContent = "Number of whales you'll never touch.." + whaleclicks;
-    
+    whalespan.textContent = 'Number of whales youll never touch..' + whaleclicks;
+
 });
