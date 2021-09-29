@@ -11,7 +11,7 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: tomato;
     height: 110px;
     padding: 0 30px;
     display: flex;
@@ -33,13 +33,11 @@ p {
     text-align: center;
     font-style: italic;
     font-size: 40px;
-    text-decoration: underline;
-    text-decoration-color: black;
-    color:#A2D7D2
+    color: black;
 }
 
 footer {
-    background-color: #A2D7D2;
+    background-color: tomato;
     padding: 10px;
 }
 

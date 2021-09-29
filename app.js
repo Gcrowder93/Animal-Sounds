@@ -36,3 +36,4 @@ whaleImg.addEventListener('click', () => {
     whalespan.textContent = 'Number of whales youll never touch..' + whaleclicks;
 
 });
+
